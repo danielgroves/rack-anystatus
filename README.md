@@ -23,7 +23,7 @@ Or install it yourself as:
 Save the file you wish to serve somewhere that's accessible to your Rack application, and then setup a 'map' for the URL you want to serve followed by calling the app. For example I have `test/assets/200.html` and I wish to return a `200 OK` status code for it when `/app/ok` is called. To do this, my `config.ru` would look like this:
 
 ```ruby
-require 'rack-anystatus'
+require 'rack/anystatus'
 
 map '/app/ok' do 
     run Rack::Anystatus::Endpoint.new(200, 'test/assets/200.html')
