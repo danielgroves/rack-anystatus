@@ -1,6 +1,6 @@
 # Rack::Anystatus
 
-Anystatus is a simpel [Rack]() application that will return a given status code and file for a given path. 
+Anystatus is a simpel [Rack](http://rack.github.io) application that will return a given status code and file for a given path. 
 
 ## Installation
 
